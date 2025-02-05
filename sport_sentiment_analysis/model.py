@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 
 # Load dataset with a fix for encoding issues
-file_path = 'C:/Users/Sikkandhar Jabbar/Desktop/sport_sentiment_analysis/input/fifa_world_cup_2022_tweets.csv'
+file_path = 'sport_sentiment_analysis/input/fifa_world_cup_2022_tweets.csv'
 df = pd.read_csv(file_path, encoding='ISO-8859-1')  # Fixed encoding issue
 
 # Display dataset information
