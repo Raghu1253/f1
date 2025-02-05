@@ -12,7 +12,8 @@ from sklearn.preprocessing import LabelEncoder
 import os
 
 # Paths
-MODEL_PATH = 'C:/Users/Sikkandhar Jabbar/Desktop/sport_sentiment_analysis/sports_sentiment_lstm_model.h5'
+# MODEL_PATH = 'C:/Users/Sikkandhar Jabbar/Desktop/sport_sentiment_analysis/sports_sentiment_lstm_model.h5'
+MODEL_PATH = 'sport_sentiment_analysis/sports_sentiment_lstm_model.h5'
 DEFAULT_TEST_DATA_PATH = 'C:/Users/Sikkandhar Jabbar/Desktop/sport_sentiment_analysis/input/fifa_test_dataset.csv'
 
 # Load Model
